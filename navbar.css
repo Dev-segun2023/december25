@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+
+.side{
+    display: none;
+}
+
+nav ul{
+    width: 100%;
+  line-height: 50px;
+display: flex;
+list-style: none;
+justify-content: space-around;
+background-color: antiquewhite;
+
+}
+nav ul li:nth-child(1) {
+    margin-right: auto;
+}
